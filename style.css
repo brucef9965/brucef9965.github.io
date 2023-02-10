@@ -1,11 +1,12 @@
 html, body {
     height: 100%;
+    color: red;
 }
 
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
+    color: red;
 }
 
 p {
@@ -17,7 +18,7 @@ a {
 }
 
 #logo, .project-img {
-    max-height: 300px;
+    max-height: 100px;
 }
 
 #fork img{
@@ -35,13 +36,13 @@ a {
 }
 
 .bg-1 {
-    background-color: #ffffff; /* White */
-    color: #555555;
+    background-color: navy; /* White */
+    color: navy;
 }
 
 .bg-2 {
-    background-color: #2e72a1; /* Blue */
-    color: #ffffff;
+    background-color: blue; /* Blue */
+    color: blue;
 }
 
 .card {
@@ -54,13 +55,13 @@ a {
 }
 
 .bg-3 {
-    background-color: #000000; /* Black */
-    color: #ffffff;
+    background-color: midnightblue; /* Black */
+    color: midnightblue;
 }
 
 .bg-4 {
-    background-color: #343a40; /* Dark Gray */
-    color: #fff;
+    background-color: darkblue; /* Dark Gray */
+    color: darkblue;
 }
 
 .container-fluid {
