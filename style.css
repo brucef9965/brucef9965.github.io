@@ -9,7 +9,17 @@ body {
     color: red;
 }
 
+.medium-image {
+    padding: 25px;
+    height: 200px;
+}
 
+.smaller-image {
+    height: 400px;
+    width: 600px;
+    margin: 25px;
+    padding: 25px;
+  }
 
 h1 {
     color: #2e72a1;
