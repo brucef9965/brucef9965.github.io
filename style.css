@@ -21,12 +21,12 @@ body {
     padding: 25px;
   }
 
-h1 {
+h6 {
     color: #2e72a1;
   }
 
 p {
-   color: #2e72a1;
+   color: #F8F8FF;
 }
 
 a {
@@ -52,13 +52,13 @@ a {
 }
 
 .bg-1 {
-    background-color: navy; /* White */
+    background-color: cadetblue; /* White */
     color: navy;
 }
 
 .bg-2 {
-    background-color: darkmagenta; /* Blue */
-    color: violet;
+    background-color: cadetblue; /* Blue */
+    color: white;
 }
 
 .card {
@@ -71,12 +71,12 @@ a {
 }
 
 .bg-3 {
-    background-color: midnightblue; /* Black */
-    color: blue;
+    background-color: darkseagreen; /* Black */
+    color: white;
 }
 
 .bg-4 {
-    background-color: darkblue; /* Dark Gray */
+    background-color: black; /* Dark Gray */
     color: darkblue;
 }
 
