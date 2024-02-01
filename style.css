@@ -22,7 +22,7 @@ body {
   }
 
 h6 {
-    color: #2e72a1;
+    color: black;
   }
 
 p {
@@ -30,7 +30,7 @@ p {
 }
 
 a {
-    color: #2e72a1;
+    color: darkblue;
 }
 
 #logo, .project-img {

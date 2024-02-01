@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <style>
+            /* CSS */
+            body {
+                    background-color:#4682B4;
+            }
+
+            img {
+                    width: 350px;
+                    height: 350px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+            h2 {
+                    text-align: center;
+                    padding: 50px;
+                    color: gold;
+               }
+
+
+
+        </style>
+
+        <title>Bank Simulator</title>
+    </head>
+    <body>
+        <!-- HTML -->
+        <img src="https://www.wallpaperuse.com/wallp/70-705453_m.jpg" alt="bank wallpaper,classical architecture,column,architecture,ancient roman  architecture,ancient greek temple (#705453) - WallpaperUse"/>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+        <script>
+            // JS
+            function getCash(Cash){
+    var userChoice = [userIncrease, userDecrease]
+    return money + userChoice;
+}
+
+
+alert("Welcome to the Bank simulator")
+alert("You have $10,000")
+
+var money = 10000; // how much the user starts off with.
+var userChoice = prompt("Would you like to withdraw or deposit money?"); // ask the user to withdraw or deposit
+var userMoney = getCash(money);
+
+
+if (userChoice == "deposit") {
+    var userIncrease = prompt("How much money would you like to deposit?");
+    document.write("<h2>" + "You have deposit $" + userIncrease + " " + "and got $" + parseInt(money + parseInt(userIncrease)) + "</h2>")
+} else if (userChoice == "withdraw") {
+    var userDecrease = prompt("How much money would you like to withdraw?");
+    document.write("<h2>" + "You have deposit $" + userDecrease + " " + "and got $" + parseInt(money - userDecrease) + "</h2>")
+} // If the user picks withdraw he his money balance decreaaes. However if he chooses to deposit, he adds more money to the bank.
+        </script>
+    </body>
+</html>
